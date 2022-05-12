@@ -1,0 +1,143 @@
+.container {
+  width: 1440px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+/* mobile - hasta un maximo de 450px */
+@media (max-width: 450px) {
+  .container {
+    width: 90vw;
+  }
+}
+
+/* tablet -entre 451 y 1439 */
+@media (min-width: 451px) and (max-width: 1439px) {
+  .container {
+    width: 86vw;
+  }
+}
+
+/* desktop - pantalla mayor de 1440 */
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+
+.division-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.division-flex .division-line {
+  height: 1px;
+  background-color: white;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.division-flex p {
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: 'Michroma', sans-serif;
+}
+
+.division-flex h4 {
+  font-weight: 400;
+  color: white;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-size: 22px;
+}
+
+.job-title h4 {
+  font-weight: 400;
+  font-size: 36px;
+  overflow-wrap: anywhere;
+  font-family: 'Dela Gothic One', sans-serif;
+  color: white;
+}
+
+.job-title h6 {
+  font-weight: 400;
+  font-size: 22px;
+  overflow-wrap: anywhere;
+  font-family: 'Dela Gothic One', sans-serif;
+  color: gray;
+}
+
+.job-title h6 span {
+  font-weight: 400;
+  font-size: 22px;
+  overflow-wrap: anywhere;
+  font-family: 'Dela Gothic One', sans-serif;
+  color: #f33838;
+}
+
+.job-title p {
+  margin-top: 3vh;
+  font-family: 'Michroma', sans-serif;
+  color: white;
+  line-height: 2;
+}
+
+.job-title-spacing {
+  padding-bottom: 80px;
+}
+
+/* colors */
+/* font size */
+/* general tags */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+.page-headline {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 78px;
+  font-family: 'Dela Gothic One', sans-serif;
+  overflow-wrap: anywhere;
+  text-transform: uppercase;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+/* text tags */
+.resume-section-name {
+  font-family: 'Michroma', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #a5a5a5;
+}
+/*# sourceMappingURL=style.css.map */

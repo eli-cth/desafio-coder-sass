@@ -1,0 +1,49 @@
+/* colors */
+
+$main-bg-color:#1d1d1d;
+$secondary-bg-color:#e02b2b;
+$p-font-color:white;
+$primary-font-color:#a5a5a5;
+$secondary-font-color:#e02b2b;
+ 
+/* font size */
+$text-large:78px;
+$text-medium:36px;
+$text-normal:18px;
+$text-small:12px;
+
+
+
+/* general tags */
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color:$main-bg-color;
+}
+
+
+.page-headline{
+    color:$p-font-color;
+    text-align: center;
+    font-weight: 400;
+    font-size: $text-large;
+    font-family: 'Dela Gothic One', sans-serif;
+    overflow-wrap: anywhere;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+/* text tags */
+
+.resume-section-name{
+    font-family: 'Michroma', sans-serif;
+    font-size: $text-medium;
+    font-weight: 400;
+    color:$primary-font-color;
+    
+
+}
